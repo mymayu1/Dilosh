@@ -306,7 +306,7 @@ window.requestAnimFrame = function () {
     heading.style.textAlign = 'center'; // Center-align the heading text
     heading.style.marginLeft = '50px';
     heading.style.marginTop = '200px';
-    heading.style.marginBottom = '20px';
+    heading.style.marginBottom = '0px';
     heading.style.color = '#030056';
     // Append the h2 element to the video container
     document.querySelector('#video').appendChild(heading);
