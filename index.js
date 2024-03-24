@@ -305,7 +305,8 @@ window.requestAnimFrame = function () {
     // Add styling if needed
     heading.style.textAlign = 'center'; // Center-align the heading text
     heading.style.marginLeft = '50px';
-    heading.style.marginBottom = '30px';
+    heading.style.marginTop = '50px';
+    heading.style.marginBottom = '20px';
     heading.style.color = '#030056';
     // Append the h2 element to the video container
     document.querySelector('#video').appendChild(heading);
@@ -317,7 +318,7 @@ window.requestAnimFrame = function () {
     img.style.width = '80%'; // Adjust the width as needed
 
     img.style.marginLeft= '65px';
-    img.style.marginTop = '10px';
+    img.style.marginTop = '20px';
     img.style.height = '100%'; // Maintain aspect ratio
     // Append the image to the video container
     document.querySelector('#video').appendChild(img);
