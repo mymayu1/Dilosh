@@ -301,11 +301,11 @@ window.requestAnimFrame = function () {
   
     var heading = document.createElement('h2');
     // Set the text content of the h2 element
-    heading.textContent = 'USHER: Past Present Future'; // Update with your desired heading text
+    heading.textContent = 'USHER: Past Present Future Tour'; // Update with your desired heading text
     // Add styling if needed
     heading.style.textAlign = 'center'; // Center-align the heading text
     heading.style.marginLeft = '50px';
-    heading.style.marginTop = '50px';
+    heading.style.marginTop = '200px';
     heading.style.marginBottom = '20px';
     heading.style.color = '#030056';
     // Append the h2 element to the video container
@@ -323,7 +323,6 @@ window.requestAnimFrame = function () {
     // Append the image to the video container
     document.querySelector('#video').appendChild(img);
 
-    
     
   }
   
