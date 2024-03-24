@@ -305,7 +305,7 @@ window.requestAnimFrame = function () {
     img.src = 'Usher.png'; // Update the path to your image
     // Add styling if needed
     img.style.width = '80%'; // Adjust the width as needed
-    img.style.marginTop= '500px';
+    img.style.marginTop= '1000px';
     img.style.marginLeft= '65px';
     img.style.height = '80%'; // Maintain aspect ratio
     // Append the image to the video container
