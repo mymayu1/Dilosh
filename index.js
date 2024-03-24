@@ -302,7 +302,7 @@ window.requestAnimFrame = function () {
 
     var img = new Image();
     // Set the source of the image to your desired image URL
-    img.src = '/Usher.png'; // Update the path to your image
+    img.src = 'Usher.png'; // Update the path to your image
     // Add styling if needed
     img.style.width = '80%'; // Adjust the width as needed
     img.style.marginTop= '500px';
