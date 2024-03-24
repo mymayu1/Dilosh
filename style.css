@@ -86,7 +86,7 @@ div#video {
     position: absolute;
     justify-content:right;
     right: 60px;
-    bottom: 200px;
+    bottom: 100px;
   }
   
   div#video iframe {

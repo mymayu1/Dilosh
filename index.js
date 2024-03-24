@@ -286,10 +286,10 @@ window.requestAnimFrame = function () {
   
     var w, h;
     if (window.innerWidth >= 1000) {
-      w = 295;h = 185;
+      w = 300;h = 200;
     } else
     {
-      w = 255;h = 155;
+      w = 300;h = 200;
     }
     
     // var ifrm = document.createElement("iframe");
@@ -299,16 +299,30 @@ window.requestAnimFrame = function () {
     // ifrm.style.border = 'none';
     // document.querySelector('#video').appendChild(ifrm);
   
+    var heading = document.createElement('h2');
+    // Set the text content of the h2 element
+    heading.textContent = 'USHER: Past Present Future'; // Update with your desired heading text
+    // Add styling if needed
+    heading.style.textAlign = 'center'; // Center-align the heading text
+    heading.style.marginLeft = '50px';
+    heading.style.marginBottom = '30px';
+    heading.style.color = '#030056';
+    // Append the h2 element to the video container
+    document.querySelector('#video').appendChild(heading);
 
     var img = new Image();
     // Set the source of the image to your desired image URL
     img.src = 'Usher.png'; // Update the path to your image
     // Add styling if needed
     img.style.width = '80%'; // Adjust the width as needed
-    img.style.marginTop= '1000px';
+
     img.style.marginLeft= '65px';
-    img.style.height = '80%'; // Maintain aspect ratio
+    img.style.marginTop = '10px';
+    img.style.height = '100%'; // Maintain aspect ratio
     // Append the image to the video container
     document.querySelector('#video').appendChild(img);
+
+    
+    
   }
   
